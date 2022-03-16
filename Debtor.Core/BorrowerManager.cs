@@ -85,7 +85,7 @@ namespace Debtor.Core
 
             foreach (var borrower in Borrowers)
             {
-                var borrowerString = indexer + ". " + borrower.Name + " - " + borrower.Amount + " zł";
+                var borrowerString = $"{indexer} . {borrower.Name} - {borrower.Amount} zł";
                 indexer++;
 
                 borrowersStrings.Add(borrowerString);
